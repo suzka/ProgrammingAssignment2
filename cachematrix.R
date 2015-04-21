@@ -1,10 +1,10 @@
-## Example usage:
-## > x <- matrix(rnorm(8), nrow = 2)
-## > cx <- makeCacheMatrix(x)
-## > cx$get()
+## Usage:
 ## > cacheSolve(cx)
 ## > cacheSolve(cx)
-## 
+## 1.  set the value of the matrix
+## 2.  get the value of the matrix
+## 3.  set the value of the inverse
+## 4.  get the value of the inverse
 
 makeCacheMatrix <- function(x = matrix()) {
 
