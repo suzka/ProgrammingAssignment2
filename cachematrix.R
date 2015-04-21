@@ -1,5 +1,5 @@
 ## Example usage:
-## > x <- matrix(rnorm(16), nrow = 4)
+## > x <- matrix(rnorm(8), nrow = 2)
 ## > cx <- makeCacheMatrix(x)
 ## > cx$get()
 ## > cacheSolve(cx)
