@@ -1,4 +1,7 @@
 ## Usage:
+## > x <- matrix()
+## > cx <- makeCacheMatrix(x)
+## > cx$get()
 ## > cacheSolve(cx)
 ## > cacheSolve(cx)
 ## 1.  set the value of the matrix
